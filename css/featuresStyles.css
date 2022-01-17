@@ -1,0 +1,42 @@
+article {
+  margin-bottom: 2rem;
+}
+
+.page-content {
+  width: 90%;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  height: 100%;
+}
+
+.list-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.list-of-features {
+  font-family: "Montserrat", sans-serif;
+  list-style: inside;
+  line-height: 1.7;
+  font-size: 1.6rem;
+}
+
+.graphic-container {
+  margin-left: 10rem;
+}
+
+.graphic-img {
+  width: 30rem;
+}
+
+@media only screen and (max-width: 990px) {
+  .graphic-container {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+}

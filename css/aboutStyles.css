@@ -1,0 +1,57 @@
+article:not(:first-child) {
+  margin-bottom: 3rem;
+}
+
+.website-list {
+  font-size: 1.6rem;
+  list-style-position: inside;
+  line-height: 2;
+}
+
+.website-list a {
+  color: rgb(172, 255, 255) !important;
+}
+
+.website-list a {
+  position: relative;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.website-list a:hover {
+  top: -0.5rem;
+}
+
+.website-list a:active {
+  top: -0.3rem;
+}
+
+.container {
+  height: 100%;
+}
+
+.page-content {
+  width: 90%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.article-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.article-body {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+}
+.article-body:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.page-content {
+  padding: 0 2rem;
+}
+
+.short-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.camera-desc {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .camera-desc {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .camera-desc {
+    width: 90%;
+    padding-bottom: 5rem;
+    font-size: 1.8rem;
+  }
+  .short-desc {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .container {
+    height: 100%;
+  }
+}
